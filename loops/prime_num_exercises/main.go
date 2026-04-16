@@ -40,7 +40,7 @@ func checkPrime(inputNumber int) bool {
 }
 
 func main() {
-	const inputNumber = 29
+	const inputNumber = 71
 
 	if checkPrime(inputNumber) {
 		fmt.Printf("Congratulations! You've sent a prime number of messages: %d\n", inputNumber)
