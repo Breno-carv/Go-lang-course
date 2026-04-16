@@ -77,4 +77,13 @@ func main() {
 	}
 
 	fmt.Printf("Total cost for sending %d messages: $%.2f\n", largeNumberOfMessages, largeCost)
+
+	var i int = 0
+
+	// this is the equivalent of a While loop in other languages, but in Go we can only use the for keyword,
+	// and we can omit the initial condition and the after statement if we want to create an infinite loop.
+	for i < 10 {
+		fmt.Println(i)
+		i++
+	}
 }
