@@ -96,3 +96,5 @@ func getMessagesForUser(user User) ([]string, error) {
 		return messages[:], nil // return the whole array
 	}
 }
+
+// a convenient way of creating slices is also by using the make([]type, length, capacity (if u want an array	)) fn
